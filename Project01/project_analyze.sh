@@ -1,8 +1,30 @@
-count1=$(ls -l *.html | wc -l)
-count2=$(ls -l *.js | wc -l)
-count3=$(ls -l *.css | wc -l)
-count4=$(ls -l *.py | wc -l)
-count5=$(ls -l *.hs | wc -l)
+if [ -e *.html ]; then
+	count1=$(ls -l *.html | wc -l)
+else
+	count1='0'
+fi
+if [ -e *.js ]; then
+        count2=$(ls -l *.js | wc -l)
+else
+        count2='0'
+fi
+if [ -e *.css ]; then
+        count3=$(ls -l *.css | wc -l)
+else
+        count3='0'
+fi
+if [ -e *.py ]; then
+        count4=$(ls -l *.py | wc -l)
+else
+        count4='0'
+fi
+
+if [ -e *.hs ]; then
+        count5=$(ls -l *.hs | wc -l)
+else
+        count5='0'
+fi
+
 count6=$(ls -l *.sh | wc -l)
 
 echo -e "You have $count1 HTML files"

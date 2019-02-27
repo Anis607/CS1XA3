@@ -1,0 +1,107 @@
+Last login: Fri Feb 15 19:31:14 on ttys002
+Aniss-MacBook-Pro:~ anistariq$ ssh tariqm16@mac1xa3.ca
+tariqm16@mac1xa3.ca's password:
+Welcome to Ubuntu 16.04.5 LTS (GNU/Linux 4.4.0-141-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+0 packages can be updated.
+0 updates are security updates.
+
+New release '18.04.1 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+*** System restart required ***
+Last login: Sat Feb 16 00:31:29 2019 from 70.51.79.73
+​: command not found
+​: command not found
+​: command not found
+​: command not found
+​: command not found
+​: command not found
+​: command not found
+​: command not found
+​: command not found
+​: command not found
+​: command not found
+​: command not found
+​: command not found
+​: command not found
+​: command not found
+​: command not found
+​: command not found
+​: command not found
+​: command not found
+​: command not found
+​: command not found
+​: command not found
+​: command not found
+tariqm16@1xa3-server:~$ ls
+CS1XA3  CSVAnswers  data_collect.sh  MARKS  new_csv  tariqm16_csv
+tariqm16@1xa3-server:~$ cd CS1XA3/
+tariqm16@1xa3-server:~/CS1XA3$ ls
+private    public_html  set_permissions.sh
+Project01  README.md    set_permissions.sh.save
+tariqm16@1xa3-server:~/CS1XA3$ cd Project01/
+tariqm16@1xa3-server:~/CS1XA3/Project01$ ls
+project_analyze.sh  project_analyze.sh.save  README.md
+tariqm16@1xa3-server:~/CS1XA3/Project01$ nano project_analyze.sh.save
+tariqm16@1xa3-server:~/CS1XA3/Project01$ rm project_analyze.sh.save
+tariqm16@1xa3-server:~/CS1XA3/Project01$ ls
+project_analyze.sh  README.md
+tariqm16@1xa3-server:~/CS1XA3/Project01$ nano project_analyze.sh
+tariqm16@1xa3-server:~/CS1XA3/Project01$ rm project_analyze.sh
+tariqm16@1xa3-server:~/CS1XA3/Project01$ ls
+README.md
+tariqm16@1xa3-server:~/CS1XA3/Project01$ ls
+README.md
+tariqm16@1xa3-server:~/CS1XA3/Project01$ touch project_analyze.sh
+tariqm16@1xa3-server:~/CS1XA3/Project01$ ls
+project_analyze.sh  README.md
+tariqm16@1xa3-server:~/CS1XA3/Project01$ chmod u+x project_analyze.sh
+tariqm16@1xa3-server:~/CS1XA3/Project01$ ls
+project_analyze.sh  README.md
+tariqm16@1xa3-server:~/CS1XA3/Project01$ nano project_analyze.sh
+tariqm16@1xa3-server:~/CS1XA3/Project01$ nano project_analyze.sh
+tariqm16@1xa3-server:~/CS1XA3/Project01$ ls
+project_analyze.sh  README.md
+tariqm16@1xa3-server:~/CS1XA3/Project01$ ./project_analyze.sh
+Hello
+var2
+tariqm16@1xa3-server:~/CS1XA3/Project01$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  GNU nano 2.5.3           File: project_analyze.sh                   Modified
+
+if [ $# -eq 2 ]; then
+  echo $1
+  echo $2
+else
+  echo "Incorrect Inputs"
+fi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                [ Read 8 lines ]
+^G Get Help  ^O Write Out ^W Where Is  ^K Cut Text  ^J Justify   ^C Cur Pos
+^X Exit      ^R Read File ^\ Replace   ^U Uncut Text^T To Linter ^_ Go To Line

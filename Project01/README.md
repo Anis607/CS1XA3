@@ -17,3 +17,6 @@ I do this by getting a list of all files and see if the last 4 characters are
 ".tmp". Then I simply remove the file. I used a for loop to do so (remove all)
 in a loop. 
 
+If the user does not input 1 or 2, the bash script will terminate displaying
+only "Incorrect Inputs!"
+

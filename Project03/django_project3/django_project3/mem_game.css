@@ -1,0 +1,20 @@
+div#memory_board {/* The main interface, puts the grey background. Background colour grey, border dimensions, width, height, padding, margin etc. */
+	background: #ccc;
+	border:#999 1px solid;
+	width:800px;
+	height:540px;
+	padding:24px;
+	margin:0px auto;
+}
+div#memory_board > div {/*Puts the individual boxes and places the photos their. Puts the font size of the characters. Background is my photo, puts border, width of photo, height, float margin, padding, font-size, cursor and aligns the character to the center.*/
+	background: url(anis_photo.jpg) no-repeat;
+	border:#000 1px solid;
+	width:71px;
+	height:71px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+}
